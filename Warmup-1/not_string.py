@@ -1,4 +1,9 @@
 def not_string(stuff):
+    """
+    Given a string, return a new string where "not " has been added to the front.
+    However, if the string already begins with "not",
+    return the string unchanged.
+    """
   new_string = ""
   word_check = "not"
 
