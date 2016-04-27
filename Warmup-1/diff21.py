@@ -1,0 +1,20 @@
+def diff21():
+    """
+    Given an int n, return the absolute difference between
+    n and 21, except return double the absolute difference
+    if n is over 21.
+    diff21(19) --> 2
+    diff21(10) --> 11
+    diff21(21) -- 0
+    """
+    number = 21
+    n = int(raw_input("Please enter a number: "))
+
+    if n == 0:
+        print n
+    elif n > number:
+        print abs(n-number) * 2
+    else:
+        print abs(n-number)
+
+diff21()
